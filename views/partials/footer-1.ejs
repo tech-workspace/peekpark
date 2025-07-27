@@ -1,0 +1,121 @@
+<!-- Footer -->
+<footer id="footer">
+  <section>
+    <form method="post" action="/submitInquiry">
+      <div class="fields">
+        <div class="field">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Name"
+            maxlength="100"
+            required
+          />
+        </div>
+        <div class="field">
+          <label for="mobile">Mobile</label>
+          <input
+            type="text"
+            inputmode="numeric"
+            name="mobile"
+            id="mobile"
+            placeholder="Mobile (Numbers Only)"
+            pattern="\d*"
+            maxlength="14"
+            required
+          />
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Email"
+            maxlength="30"
+            required
+          />
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea
+            name="message"
+            id="message"
+            rows="3"
+            maxlength="2000"
+            placeholder="Put your message..."
+            required
+          ></textarea>
+        </div>
+      </div>
+      <ul class="actions">
+        <li><input type="submit" value="Invest Now" /></li>
+      </ul>
+    </form>
+    <h5 id="responseMessage"></h5>
+  </section>
+  <section class="split contact">
+    <section class="alt">
+      <h3>Address</h3>
+      <p>Abu Dhabi - UAE</p>
+    </section>
+    <section>
+      <h3>Phone</h3>
+      <p><a href="javascript:void(0)">(+971) 050000000</a></p>
+    </section>
+    <section>
+      <h3>Email</h3>
+      <p><a href="javascript:void(0)">info@peekpark.com</a></p>
+    </section>
+    <section>
+      <h3>Social</h3>
+      <ul class="icons alt">
+        <li>
+          <a
+            href="https://wa.me/message/KFVWSJUR56XYJ1"
+            target="_blank"
+            class="icon brands alt fa-whatsapp"
+            ><span class="label">WhatsApp</span></a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.facebook.com/nexusplater"
+            target="_blank"
+            class="icon brands alt fa-facebook-f"
+            ><span class="label">Facebook</span></a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/nexusplater"
+            target="_blank"
+            class="icon brands alt fa-instagram"
+            ><span class="label">Instagram</span></a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/nexusplater"
+            target="_blank"
+            class="icon brands alt fa-linkedin"
+            ><span class="label">LinkedIn</span></a
+          >
+        </li>
+      </ul>
+    </section>
+  </section>
+</footer>
+
+<!-- Copyright -->
+<div id="copyright">
+  <ul>
+    <li>
+      <span name="spanSysYear" id="spanSysYear" class="date"></span>
+      &copy; PeekPark
+    </li>
+    <li>PeekPark App</li>
+  </ul>
+</div>
