@@ -30,12 +30,6 @@ app.get("/home", (req, res) => {
 app.get("/catalog-2", (req, res) => {
   res.render("catalog-2", { layout: "./layouts/layout-2.ejs" });
 });
-app.get("/catalog-3", (req, res) => {
-  res.render("catalog-3", { layout: "./layouts/layout-2.ejs" });
-});
-app.get("/catalog-4", (req, res) => {
-  res.render("catalog-4", { layout: "./layouts/layout-2.ejs" });
-});
 app.get("/sent-already", (req, res) => {
   res.render("sent-already", { layout: "./layouts/layout-3.ejs" });
 });
@@ -103,7 +97,7 @@ app.post("/submitInquiry", async (req, res) => {
     name: req.body.name,
     mobile: req.body.mobile,
     email: req.body.email,
-    inquiry: req.body.inquiry,
+    message: req.body.message,
     createDate: new Date(),
   };
 
